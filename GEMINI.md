@@ -24,7 +24,7 @@ The system relies on a **Three-Agent-Core** and uses **KickLang DSL** for comman
 
 ## Directory Structure
 - **`docs/`**: Strategic playbooks and high-level patterns (e.g., `metaforge-v1-playbook.md`).
-- **`examples/`**: Sample inputs (`sample-tas.md`) and outputs (`sample-forge-output.md`) for reference.
+- **`examples/`**: Sample inputs (`sample-tas.md`) and production-ready outputs (e.g., `automated-compliance-audit-forge.md`) for reference.
 - **`metaforge-v1/`**: Contains the `SKILL.md` file defining the Gemini CLI skill for this framework.
 - **`references/`**: Technical specifications and protocol details (e.g., `unified-metaforge-protocol.md`).
 
