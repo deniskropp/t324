@@ -15,7 +15,7 @@ This repository manages the meta-infrastructure for orchestrating workflows, cre
 - **Three-Agent-Core**: Mandatory delegation model (KickForge, KickFlow, KickGuard) for task execution, workflow coordination, and ethical governance.
 - **KickLang**: Domain-Specific Language used for orchestrating agents, defining states, and executing TAS protocols (current lineage v4.1+).
 - **TAS (Task-Agnostic Steps)**: Fundamental unit of execution and decomposition within this meta-framework.
-- **OCS Protocol**: Space-oriented, sectioned (`×`) cognitive transport layer with consent gates and coherence monitoring.
+- **OCS Protocol**: Space-oriented, sectioned (`⫻`) cognitive transport layer with consent gates and coherence monitoring.
 
 ## Repository Structure
 
@@ -49,3 +49,5 @@ This repository is the public documentation hub for MetaForge + OCS patterns. Al
 Public documentation surface restored and aligned with private/skill development. Next increments: explicit v3.0 protocol mapping notes and additional onboarding examples if external Spaces are desired.
 
 *Documentation hub initialized / refreshed: 2026-10-15*
+
+**Sigil note:** Canonical section marker is `⫻` (U+2AFB Triple Solidus Binary Relation).
