@@ -36,6 +36,12 @@ Canonical entry points:
 - `docs/kickflow-orchestration-patterns.md`
 - `GEMINI.md` (project brief)
 
+## Canon
+
+Shared concepts (runtime kernel with `Result`/`Error`, `ArtifactStore` with `AddArtifact`/`GetArtifact`, `Orchestrator.AssignAgent`, Task-Agnostic Steps, role IDs, JSON schemas) are defined in [deniskropp/t333](https://github.com/deniskropp/t333) on `main`, the neutral source of truth. Only `canon/` there is normative (see [`canon/SPEC.md`](https://github.com/deniskropp/t333/blob/main/canon/SPEC.md)). This repo references t333 `main` without version pinning ([ADR-0005](https://github.com/deniskropp/t333/blob/main/docs/adr/0005-referenz-auf-main.md)). Repo-specific extensions use the `⫻x-t324/` namespace.
+
+TAS in this repo means Task-Agnostic Steps as defined in [`canon/tas.kl`](https://github.com/deniskropp/t333/blob/main/canon/tas.kl). The Three-Agent-Core (KickForge / KickFlow / KickGuard) and other persona names are persona bindings for the abstract role IDs in [`canon/roles.yaml`](https://github.com/deniskropp/t333/blob/main/canon/roles.yaml), not canon role IDs.
+
 ## Status Update — October 2026
 
 This repository is the public documentation hub for MetaForge + OCS patterns. Alignment notes:
